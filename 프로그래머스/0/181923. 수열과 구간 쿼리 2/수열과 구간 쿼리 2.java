@@ -11,6 +11,7 @@ class Solution {
             int k = queries[i][2];
 
             int min = Integer.MAX_VALUE; 
+            System.out.println(min);
 
             for (int j = s; j <= e; j++) {
                 if (arr[j] > k && arr[j] < min) {
